@@ -1,4 +1,4 @@
-angular.module('plunker', ['ui.bootstrap']);
+angular.module('TemplateDemo', ['ui.bootstrap']);
 function AlertDemoCtrl($scope) {
   $scope.alerts = [
     { type: 'danger', msg: 'Oh snap! Change a few things up and try submitting again.' },

@@ -1,17 +1,63 @@
 <!doctype html>
-<html ng-app="plunker">
+<html ng-app="TemplateDemo">
   <head>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
-    <script src="secondTest.js"></script>
-    <script src="example.js"></script>
+    <script src="TempModule.js"></script>
+    <script src="js/controllers.js"></script>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-
-<div ng-controller="AlertDemoCtrl">
-  <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
-  <button class='btn btn-default' ng-click="addAlert()">Add Alert</button>
-</div>
+      <div>
+        <a href="#/AccordionDemo">Accordion Demo</a>
+      </div>
+      <div>
+        <a href="demo/AlertDemo.html">Aleart Demo</a>
+      </div>
+      <div>
+        <a href="demo/ButtonsDemo.html">Button Demo</a>
+      </div>
+      <div>
+        <a href="demo/CarouselDemo.html">Carousel Demo</a>
+      </div>
+      <div>
+        <a href="demo/CollapsDemo.html">Collaps Demo</a>
+      </div>
+      <div>
+        <a href="demo/DatepickerDemo.html">DatePicker Demo</a>
+      </div>
+      <div>
+        <a href="demo/DropdownToggleDemo.html">Dropdown Toggle Demo</a>
+      </div>
+      <div>
+        <a href="demo/ModalDemo.html">Modal Demo</a>
+      </div>
+      <div>
+        <a href="demo/PaginationDemo.html">Pagination Demo</a>
+      </div>
+      <div>
+        <a href="demo/PopoverDemo.html">Popover Demo</a>
+      </div>
+      <div>
+        <a href="demo/ProgressbarDemo.html">Progressbar Demo</a>
+      </div>
+      <div>
+        <a href="demo/RatingDemo.html">Rating Demo</a>
+      </div>
+      <div>
+        <a href="demo/TabsDemo.html">Tabs Demo</a>
+      </div>
+      <div>
+        <a href="demo/TempModule.js">Temp Module</a>
+      </div>
+      <div>
+        <a href="demo/TimepickerDemo.html">Time Picker Demo</a>
+      </div>
+      <div>
+        <a href="demo/TooltipDemo.html">Tooltip Demo</a>
+      </div>
+      <div>
+        <a href="demo/TypeaheadDemo.html">Typeahead Demo</a>
+      </div>
   </body>
 </html>

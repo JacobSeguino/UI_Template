@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="DropdownToggleDemo">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+    <script src="TempModule.js"></script>
+    <script src="controllers/DropdownToggleControl.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <li class="dropdown" ng-controller="DropdownCtrl"><a class="dropdown-toggle">Click me for a dropdown, yo!</a>
+      <ul class="dropdown-menu">
+        <li ng-repeat="choice in items">
+          <a>{{choice}}</a>
+        </li>
+      </ul>
+  </li>
+</body></html>
